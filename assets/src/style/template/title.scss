@@ -1,0 +1,51 @@
+.title-medium {
+    font-size: 48px;
+    line-height: 56px;
+    font-family: "Halvar Mittelschrift";
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.title-number {
+    font-family: "Halvar Mittelschrift";
+    font-size: 72px;
+    line-height: 83px;
+    color: #ff4c41;
+}
+@media (max-width: 1200px) {
+    .title-medium {
+        font-size: 42px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+    .title-number {
+        font-size: 64px;
+        line-height: 75px;
+    }
+}
+@media (max-width: 992px) {
+    .title-medium {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .title-number {
+        font-size: 56px;
+        line-height: 68px;
+    }
+}
+@media (max-width: 767px) {
+    .title-medium {
+        font-size: 30px;
+        line-height: 38px;
+        margin-bottom: 30px;
+    }
+    .title-number {
+        font-size: 48px;
+        line-height: 53px;
+    }
+}
+@media (max-width: 575px) {
+    .title-medium {
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
