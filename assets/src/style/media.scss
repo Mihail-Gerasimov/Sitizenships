@@ -172,6 +172,23 @@
     .last-img {
         width: 290px;
     }
+    .modal-text {
+        font-size: 15px;
+        max-width: 220px;
+    }
+    .modal-input {
+        padding: 12px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .btn-modal {
+        padding: 12px 0;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .modal-dialog {
+        max-width: 315px;
+    }
 }
 
 @media (max-width: 850px) {
@@ -242,6 +259,11 @@
     .quiz-last {
         width: 100% !important;
     }
+    .modal-input {
+        padding: 12px;
+        font-size: 15px;
+        line-height: 20px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -297,6 +319,10 @@
     .title-last {
         font-size: 20px;
         line-height: 23px;
+    }
+    .title-modal {
+        font-size: 29px !important;
+        line-height: 34px !important;
     }
 }
 

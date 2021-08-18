@@ -10773,6 +10773,74 @@ button:focus {
   top: 311px;
   right: 240px; }
 
+.modal-header {
+  display: flex;
+  padding: 20px;
+  border-bottom: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0; }
+
+.modal-header .btn-close {
+  right: 20px;
+  top: 20px; }
+
+.closed {
+  right: 0;
+  top: 0; }
+
+.modal-dialog {
+  max-width: 480px;
+  margin: 1.75rem auto !important; }
+
+.modal-content {
+  border: none;
+  border-radius: 5px; }
+
+.modal-text {
+  font-size: 17px;
+  line-height: 120%;
+  max-width: 280px; }
+
+.modal-input {
+  padding: 15px;
+  max-width: inherit;
+  color: #cecece;
+  font-size: 24px;
+  line-height: 29px;
+  border: 1px solid #cecece; }
+  .modal-input:hover {
+    border: 1px solid #cecece; }
+  .modal-input:focus {
+    border: 1px solid #cecece; }
+
+.title-modal {
+  color: #ff4c41 !important; }
+
+.btn-modal {
+  padding: 19px 0;
+  width: 100%;
+  max-width: inherit; }
+
+.modal-info {
+  font-size: 12px;
+  line-height: 120%; }
+
+.modal-thanks {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  max-width: 315px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  height: 400px; }
+
+.complite {
+  width: 40px; }
+
 @media (max-width: 1500px) {
   .last-img {
     right: 20px; } }
@@ -10898,7 +10966,20 @@ button:focus {
   .label-input {
     margin-right: 15px; }
   .last-img {
-    width: 290px; } }
+    width: 290px; }
+  .modal-text {
+    font-size: 15px;
+    max-width: 220px; }
+  .modal-input {
+    padding: 12px;
+    font-size: 15px;
+    line-height: 20px; }
+  .btn-modal {
+    padding: 12px 0;
+    font-size: 15px;
+    line-height: 20px; }
+  .modal-dialog {
+    max-width: 315px; } }
 
 @media (max-width: 850px) {
   .big-img {
@@ -10947,7 +11028,11 @@ button:focus {
   .col-width-2 {
     width: 100%; }
   .quiz-last {
-    width: 100% !important; } }
+    width: 100% !important; }
+  .modal-input {
+    padding: 12px;
+    font-size: 15px;
+    line-height: 20px; } }
 
 @media (max-width: 575px) {
   .navigation {
@@ -10989,7 +11074,10 @@ button:focus {
     max-width: 420px; }
   .title-last {
     font-size: 20px;
-    line-height: 23px; } }
+    line-height: 23px; }
+  .title-modal {
+    font-size: 29px !important;
+    line-height: 34px !important; } }
 
 @media (max-height: 900px) {
   .quiz-one {
